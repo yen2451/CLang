@@ -26,4 +26,5 @@ int main()
         else
             printf("%s", "在第三象限\n");
     }
+    return 0;
 }
