@@ -1,3 +1,4 @@
+//credit: Yen Hsu, github: yen2451
 // 兩個右斜線，為單行註解，註解內容不執行
 /* 右斜線＋乘號，為多行註解，註解內容不執行
     （我是註解）
@@ -26,9 +27,10 @@ int main()
     scanf("%輸入格式",&存入變數名稱);
     以下為示範
     */
-    scanf("%d", &b); //接受輸入，並存入b
-    scanf("%d %d", &c, &d);//連續輸入，中間以空格分隔，依序存入c、d
-    printf("%s %d\n","b is", b);
-    printf("%s %d %s %d\n","c is",c,",and d is",d);
-    return 0;
+    scanf("%d", &b);        //接受輸入，並存入b
+    scanf("%d %d", &c, &d); //連續輸入，中間以空格分隔，依序存入c、d
+    printf("%s %d\n", "b is", b);
+    printf("%s %d %s %d\n", "c is", c, ",and d is", d);
+    return 0; //最後，回傳0值，代表程序順利執行而為出錯
 }
+//叮嚀：windows系統中中文編碼是big5，與常用unicode分屬不同編碼系統，故在命令列輸出時盡量用英文，否則可能會有亂碼出現
