@@ -1,4 +1,4 @@
-//credit: Yen Hsu, github: https://github.com/yen2451/CLang/
+//credit: Yen Hsu, github: https://github.com/yen2451/CLang/introToC_basicMethod.c
 // 兩個斜線，為單行註解，註解內容不執行
 /* 斜線＋乘號，為多行註解，註解內容不執行
     （我是註解）
