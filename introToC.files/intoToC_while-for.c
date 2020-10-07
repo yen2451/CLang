@@ -8,7 +8,7 @@ int main(int argc, char const *argv[])
     for回圈：和while很像，可以說是自帶計數器的while回圈，括號內要填入：「定義計數器;計數器範圍;計數器運算方式」
     示範：
     */
-    /*char s;
+    char s;
     scanf("%s", &s);
     while (s != 'e')//當s變數的內容不為“e”時，便執行程式碼
     {
@@ -35,15 +35,15 @@ int main(int argc, char const *argv[])
             break;
         }
         scanf("%s", &s);//上述程序已完成，而因為這段程式碼的目的是要使程式碼重複運作，故需再進行一次s的賦值
-    }*/
+    }
     //for示範1
-    /*
+    
     for (int i = 1; i < 10; i++)
     {
         printf("%d\t%.0f\t%.0f\t%.0f\t\n", i, pow(i, 2), pow(i, 3), pow(i, 4));
         //
     }
-    printf("%s","\n");*/
+    printf("%s","\n");
     //for示範2，三角形
     int level;//層數
     scanf("%d",&level);
