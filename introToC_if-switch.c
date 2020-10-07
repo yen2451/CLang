@@ -32,7 +32,8 @@ int main(int argc, char const *argv[])
        變數值為1的時候要衝啥
        break;----->注意要加break，才能跳出比對程序
    case 2 :
-       變數值為2的時候要衝啥
+   case 3 :
+       變數值為2或3的時候要衝啥
        break;
    default:
        若上述直接不成立時要幹嘛
