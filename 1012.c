@@ -11,7 +11,7 @@ int fact(int n)
 }
 int main(int argc, char const *argv[])
 {
-    int time = 0;
+    int time = 5;
     float x;
     float ss = 0;
     float cs = 0;
