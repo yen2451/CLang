@@ -23,6 +23,5 @@ int main(int argc, char const *argv[])
     }
     printf("%s %f %s %f\n", "sin(", x, ") is", ss);
     printf("%s %f %s %f\n", "cos(", x, ") is", cs);
-
     return 0;
 }
