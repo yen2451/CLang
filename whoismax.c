@@ -12,6 +12,6 @@ int main()
         //printf("%s %d\n", "current maximun number is: ", largest);
         ct++;
     }
-    printf("%d",largest);
+    printf("%d", largest);
     return 0;
 }
