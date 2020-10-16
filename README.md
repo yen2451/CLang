@@ -10,7 +10,7 @@ int main(){
     return 0;
 }
 ```
-## CODE INDEX
+## FILE INDEX
 |                                           檔名                                           |   類型   |             內容             | 委託者 |
 | :--------------------------------------------------------------------------------------: | :------: | :--------------------------: | :----: |
 | [introToC_basicMethod.c](https://github.com/yen2451/CLang/blob/master/introToC.files/introToC_basicMethod.c) | 基本語法 |       printf(),scanf()       |  N/A   |
